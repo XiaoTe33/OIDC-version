@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #666666;
+}
+li{
+    list-style: none;
+}
+
+.toptop{
+    height: 35px;
+    background-color: #f5f5f5;
+}
+.top{
+    height:35px;
+    width:1190px;
+    margin:0 auto;
+    text-align: center;
+    line-height: 35px;
+    
+}
+.top .top1{
+    float:left;
+}
+.top .top2{
+    float:right;
+}
+
+
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: #ff7700;
+    display: flex;
+    align-items: center;
+}
+.header .logo{
+    position: relative;
+    height: 60px;
+    width: 430px;
+}
+.header .logo a{
+    display: block;
+    position: absolute;
+    height: 60px;
+    width: 140px;
+    left:290px;
+    background: url(../images/ms-logo.png) center no-repeat;
+}
+.header .nav1{
+    float: left;
+    height: 60px;
+    padding-left: 160px;
+    
+}
+.header .nav1 ul li{
+    float:left;
+    height: 60px;
+    color:#f5f5f5;
+    font-size: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+    line-height: 60px;
+}
+.main{
+    position: relative;
+    width: 1240px;
+    height: 650px;
+    margin:0px auto;
+}
+.main .nav2{
+    position: absolute;
+    top:0px;
+    left:0px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    background-color: #fff;
+    border:1px solid #dddddd;
+}
+.main .nav2 dt{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.main .nav2 dd{
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    padding-left: 5px;
+    color: #666666;
+}
+.main .nav2 dd:hover{
+    color:orange;
+    cursor:pointer;
+}
+.main .big{
+    position: absolute;
+    right: 0px;
+    top: 25px;
+}
+.main .big .big1{
+    width: 1030px;
+    height: 185px;
+    border:1px solid #dddddd;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+.main .big .big2{
+    width: 1070px;
+    height: 345px;
+    border:1px solid #dddddd
+}
+.main .big .big1 .add{
+    width: 245px;
+    height: 145px;
+    border:2px dashed #dddddd;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 130px;
+}
+.main .big .big1 .add:hover{
+    border:2px dashed orange;
+    color: #ff8000;
+}
+
+.main .big .big2 .tab{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    background-color: #f6f6f6;
+}
+.main .big .big2 .tab ul{
+    display: flex;
+}
+.main .big .big2 .tab ul li{
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    border-right: 1px solid #dddddd;
+    font-size: 13px;
+}
+.main .big .big2 .tab div{
+    padding-left: 20px;
+}
+#addressnum,
+#addressrest{
+    color: orange;
+}
+
+
+
+.alert{
+    width: 512px;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    margin-left: -256px;
+    z-index: 5;
+    background-color: white;
+    margin-top: 142px;
+    border: 3px solid rgba(167, 167, 167,0.7);
+    display: none;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    width: 502px;
+    height: 40px;
+    line-height: 40px;
+    padding:5px;
+    margin-bottom: 20px;
+    background-color: #dddddd;
+}
+             
+.add-input{
+    margin: 20px 0px 30px 0px;
+}
+.add-input label{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    width: 90px;
+    padding-left: 10px;
+    text-align: right;
+    font-size: 14px;
+}
+.add-input input.list-input{
+    height: 35px;
+    line-height: 35px;
+    width: 350px;
+    text-indent: 5px;
+}
+.addSubmit{
+    display: block;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: #ff8000;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 10px;
+    margin:0 auto;
+    border:none;
+}
+             
+.bg{
+    position: fixed;
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: 2;
+    display: none;
+}
+.active{
+    display: block;
+}
+
+
+
+.last .center {
+    text-align:center;
+    font-size: 10px;
+}
+.last .grey {
+    font-size:8px;
+    color:#999999;
+}

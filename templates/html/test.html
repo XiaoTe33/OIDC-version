@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">提交</button>
+    <script>
+
+         const btn = document.querySelector('#btn')
+         btn.addEventListener('click',async()=>{
+    const fd = new FormData();
+    fd.append("goodsId",123);
+    fd.append("amount",1);
+    fd.append("style",1);
+    fd.append("address",123);  
+    const res = await fetch('http://39.101.72.18:9090/order', {
+        method: "post",
+        body: fd,
+      })
+      const data = await res.json();
+      console.log(data);
+
+            // var storage = window.localStorage;
+    //         const fd = new FormData()
+    // fd.append("token",storage.getItem("token"))
+    // const res = await fetch('http://39.101.72.18:9090/user/login/token', {
+    //   method : 'post',
+    //   body: fd,
+    // })
+    //  let data = await res.json();
+    //  console.log(data);
+    //  if(data.status == 200){
+    //     storage.setItem("token",data.token)
+    //  }
+     
+        //     const res = await fetch('http://39.101.72.18:9999/', {
+        //     method: "post",
+        //     headers: {
+        //         'Content-Type': 'application/json; charset=utf-8'
+        //     },
+        //     body: JSON.stringify({
+        //         name :"123",
+        //         age :123,
+        //         sex :"女",
+        //     })
+        //   })
+    //     const fd = new FormData();
+    //     fd.append("username","qwer");
+    //     fd.append("password","111111");
+    //     const res = await fetch('http://39.101.72.18:9090/user/login', {
+    //         method: "post",
+    //         body: fd,
+    //     })
+    //   const data = await res.json();
+    //   console.log(data);
+
+         })
+// window.addEventListener('load',async()=>{
+//      var storage = window.localStorage;
+//      const url = `http://39.101.72.18:9090/goods?goodsId=${storage.getItem("id")}`
+//     const res = await fetch(url, {
+//         method:"get"
+//             })
+//       const data = await res.json();
+//       console.log(data);
+// })
+   
+        //  let dots = document.querySelector('.dots');
+
+// for (let i = 0; i < images.children.length; i++) {
+// //创建一个小li
+// var li = document.createElement('li');
+// //记录当前小圆圈的索引号 通过创建自定义属性来做
+// li.setAttribute('index', i);
+// dots.appendChild(li);
+// li.addEventListener('click',()=> {
+//     //排他
+//     for (let i = 0; i < dots.children.length; i++) {
+//         dots.children[i].className = '';
+//         images.children[i].classList.remove = 'current';
+//     }
+//     this.className = 'active';
+//         // 当我们点击了某个小li 就拿到它的index属性
+//     let index = this.getAttribute('index');
+//     //console.log(index)
+//     images.children[index].classList.add('current');
+//             // //当我们点击了某个小li 就要把这个小li 的index给num
+//             num = index;
+//             circle = index;
+//         })
+//     }
+// dots.children[0].className = 'active';
+
+    </script>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="https://www.suning.com/favicon.ico">
+</head>
+
+<body>
+
+    <input type="text" id="username"><br>
+    <input type="password" id="password"><br>
+    <button id="btn" onclick=a()>登录<buttton>
+    <script>
+        const btn = document.querySelector('#btn')
+        const u = document.querySelector('#username')
+        const p = document.querySelector('#password')
+        btn.addEventListener('click', function () {
+            ajax({
+                method: 'POST',
+                url: 'http://39.101.72.18:9090/user/login',
+                data: {
+                    username: u.value,
+                    password: p.value,
+                },
+                success: function (res) {
+                    console.log(res);
+                },
+                err: function (res) {
+                    alert(res['msg'])
+                },
+            })
+        })
+
+    </script>
+    <script>
+        //封装
+        function resloveData(data) {
+            var arr = []
+            for (var k in data) {
+                var str = k + '=' + data[k]
+                arr.push(str)
+            }
+            return arr.join('&')
+        }
+
+        function ajax(options) {
+
+            var xhr = new XMLHttpRequest()
+            var qs = resloveData(options.data)
+            if (options.method.toUpperCase() === 'GET') {
+                xhr.open(options.method, options.url + '?' + qs)
+                xhr.send()
+            } else if (options.method.toUpperCase() === 'POST') {
+                xhr.open(options.method, options.url)
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded')
+                xhr.send(qs)
+            }
+
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var result = JSON.parse(xhr.responseText)
+                    if (result['msg'] == '200') {
+                        return options.success(result)
+                    } else {
+                        return options.err(result)
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+<html> -->
+
+

@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #f2f2f2;
+}
+a{
+    text-decoration: none;
+    color: #666666;
+}
+li{
+    list-style: none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.center {
+    text-align:center;
+    font-size: 10px;
+}
+.grey {
+    font-size:8px;
+    color:#999999;
+}
+.top{
+    height:35px;
+    width:1190px;
+    margin:0 auto;
+    text-align: center;
+    line-height: 35px;
+    
+}
+.top .top1{
+    float:left;
+}
+.top .top2{
+    float:right;
+}
+.top3{
+    display: flex;
+    height: 110px;
+    width: 1190px;
+    margin:0 auto;
+}
+.top3 img{
+    width: 200px;
+    height: 45px;
+    margin:20px;
+}
+.top3 input{
+    height: 35px;
+    width: 420px;
+    margin-top: 20px;
+    outline: none;
+    border:2px solid #ff8000;
+    border-radius: 10px 0 0 10px;
+    padding-left: 10px;
+}
+.top3 button{
+    height: 40px;
+    width: 100px;
+    margin: 0px;
+    border:0px; 
+    border-radius: 0 10px 10px 0;
+    margin-top: 20px;
+    background-color: #ff8000;
+    color: white;
+    font-weight: bold;
+    text-indent: 2px;
+    font-size: 15px;
+}
+.tab,
+.details,
+.total{
+    width: 1190px;
+    margin: 0 auto;
+    border: 1px solid #999999;
+    margin-bottom: 55px;
+}
+.details .list1{
+    width: 70px;
+    height: 135px;
+    margin-left: 15px;
+}
+.details .list2 img{
+    width: 80px;
+    height: 80px;
+}
+.details .list3{
+    width: 265px;
+}
+.details .list4{
+    width: 150px;
+    height: 100px;
+    font-size: 10px;
+    color: #999999;
+}
+.details .list4:hover{
+    border:2px dashed #ff8000;
+}
+.details .list5{
+    width: 125px;
+    text-align: center;
+}
+.details .list6{
+    width: 70px;
+    height: 20px;
+    border:1px solid #666666;
+}
+.details .list7{
+    width: 150px;
+}
+.details .list8{
+    width: 135px;
+}
+.list01{
+    width: 70px;
+    margin-left: 15px;
+}
+.list02{
+    display: block;
+    width: 345px;
+    text-align: center;
+}
+.list03{
+    width: 150px;
+    text-align: center;
+}
+.list04{
+    width: 125px;
+    text-align: center;
+}
+.list05{
+    width: 70px;
+    text-align: center;
+}
+.list06{
+    width: 150px;
+    text-align: center;
+}
+.list07{
+    width: 135px;
+    text-align: center;
+}
+
+.details .list6 .btn{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: #fff;
+}
+.details .list6 .num1{
+    width: 30px;
+    height: 20px;
+    border: none;
+    text-align: center;
+}
+
+.total .yes{
+    margin-left: 15px;
+}
+.total .delete{
+    cursor: pointer;
+    font-size: 10px;
+    color: #999999;
+}
+.total .totalbtn{
+    width: 120px;
+    height: 60px;
+    color: #f2f2f2;
+    background-color: #bbbbbb;
+    border: none;
+    font-size: 25px;
+}

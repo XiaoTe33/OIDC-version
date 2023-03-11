@@ -1,0 +1,230 @@
+* {
+    margin:0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: #666666;
+}
+li{
+    list-style: none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+body{
+    background-color: #f5f5f5;
+}
+
+
+.toptop{
+    height: 35px;
+    background-color: #f5f5f5;
+}
+.top{
+    height:35px;
+    width:1190px;
+    margin:0 auto;
+    text-align: center;
+    line-height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: #ff7700;
+    display: flex;
+    align-items: center;
+}
+.header .logo{
+    position: relative;
+    height: 60px;
+    width: 430px;
+}
+.header .logo a{
+    display: block;
+    position: absolute;
+    height: 60px;
+    width: 140px;
+    left:290px;
+    background: url(../images/ms-logo.png) center no-repeat;
+}
+.header .nav1{
+    float: left;
+    height: 60px;
+    padding-left: 160px;
+}
+.header .nav1 ul li{
+    float:left;
+    height: 60px;
+    color:#f5f5f5;
+    font-size: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+    line-height: 60px;
+}
+.last .center {
+    text-align:center;
+    font-size: 10px;
+}
+.last .grey {
+    font-size:8px;
+    color:#999999;
+}
+
+.main{
+    position: relative;
+    width: 1240px;
+    height: 650px;
+    margin:0px auto;
+}
+.main .nav2{
+    position: absolute;
+    top:0px;
+    left:0px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    background-color: #fff;
+    border:1px solid #999999;
+}
+.main .nav2 dt{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.main .nav2 dd{
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    padding-left: 5px;
+    color: #666666;
+}
+.main .nav2 dd:hover{
+    color:orange;
+    cursor:pointer;
+}
+.main .order{
+    position: absolute;
+    top:10px;
+    right:0px;
+    height: 575px;
+    width: 1048px;
+    background-color: #fff;
+    border: 1px solid #666666;
+}
+.main .orderhead{
+    height: 30px;
+    margin-top: 27px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.main .order ul li{
+    width: 75px;
+    height: 25px;
+    margin-left:30px;
+}
+.main .order ul li:hover{
+    color:#ff7700;
+    font-weight: bold;
+}
+.main .orderhead ul li:after {
+    content: ""; 
+    width: 5px;
+    height: 1px;
+    background-color: #ff7700;
+}
+
+.main .classify{
+    width: 980px;
+    height: 120px;
+    margin-left: 10px;
+    border:1px solid #e5e5e5;
+}
+.main .classify ul li{
+    margin:0px;
+    width: 110px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    line-height: 40px;
+    text-align: center;
+}
+.main .classify ul li:hover{
+    color: #ff7700;
+    font-weight: bold;
+}
+.main .classify ul li span{
+    color:#ff7700;
+    margin-left: 3px;
+}
+.main .classify .search{
+    width: 245px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.main .classify .search input{
+    width: 165px;
+    height: 30px;
+    border:none;
+    padding-left: 10px;
+}
+.main .classify .search button{
+    height: 30px;
+    width: 70px;
+    border:none;
+}
+
+
+
+.main .order .list .littlehead{
+    /* width: 980px; */
+    height: 30px;
+    background-color: #f5f5f5;
+}
+.main .order .littlehead li{
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+}
+.details .list1{
+    width: 70px;
+    height: 135px;
+    margin-left: 15px;
+}
+.details .list2 img{
+    width: 80px;
+    height: 80px;
+}
+.details .list3{
+    width: 265px;
+}
+.details .list4{
+    width: 150px;
+    height: 100px;
+    font-size: 10px;
+    color: #999999;
+}
+.details .list4:hover{
+    border:2px dashed #ff8000;
+}
+.details .list5{
+    width: 125px;
+    text-align: center;
+}
+.details .list6{
+    width: 70px;
+    height: 20px;
+}
+.details .list7{
+    width: 150px;
+}
+.details .list8{
+    width: 135px;
+}

@@ -1,0 +1,116 @@
+.tab{
+    width: 35px;
+    height:100%;
+    background-color: #383838;
+    position:fixed;
+    right:0px;
+    top:0px;
+}
+.iconfont{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin:0 auto;
+    padding-bottom: 3px;
+}
+
+.tab .right1 img{
+    position: absolute;
+    right:0px;
+}
+.right1{
+    width: 35px;
+    height: 150px;
+}
+.right2{
+    width: 35px;
+    height: 357px;
+}
+.right3{
+    width: 35px;
+    height: 300px;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.shoppingcart{
+    width: 35px;
+    height: 130px;
+    padding-top: 12px;
+}
+.right2 .right3 div .icon-gouwuche{
+    color:aliceblue;
+}
+.right2 .right3 div .gouwuche{
+    display: block;
+    width: 20px;
+    height: 65px;
+    margin:0 auto;
+    color:white;
+    text-align: center;
+    padding-bottom: 6px;
+    padding-top:6px;
+}
+.right2 .right3 div .number{
+    display: block;
+    height: 15px;
+    width: 21px;
+    margin:0 auto;
+    border-radius: 5px;
+    color:white;
+    text-align: center;
+    line-height: 15px;
+    background-color: red;
+}
+.shoppingcart:hover{
+    background-color:orange;
+}
+.icon-xiaoxizhongxin{
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.icon-xiaoxizhongxin:hover{
+    color:aliceblue;
+    background-color: orange;
+}
+
+
+.right4 div .iconfont{
+    display: block;
+    width: 35px;
+    height: 30px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+}
+.right4 div{
+    padding-bottom: 5px;
+    height: 35px;
+}
+.right4 div .iconfont:hover{
+    color:aliceblue;
+    background-color: orange;
+}
+.right4 div span{
+    display: none;
+    height: 30px;
+    width: 50px;
+    line-height: 30px;
+    text-align: center;
+}
+.right4 div .moved {
+    display: block;
+    transform: translateX(47px);
+  }
+
+
+.right5{
+    position: absolute;
+    bottom: 5px;
+    width: 35px;
+    color:aliceblue;
+}

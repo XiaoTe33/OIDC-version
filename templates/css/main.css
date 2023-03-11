@@ -1,0 +1,392 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #f2f2f2;
+}
+a{
+    text-decoration: none;
+    color: #666666;
+}
+li{
+    list-style: none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.width{
+    width: 1190px;
+    margin:0 auto;
+}
+.none{
+    display: none;
+}
+
+.center {
+    text-align:center;
+    font-size: 10px;
+}
+.grey {
+    font-size:8px;
+    color:#999999;
+}
+.toptop{
+    height: 100px;
+    background-color:#c11312;
+    position: relative;
+}
+.toptop img{
+    width:1190px;
+    height:100px;
+    display:block;
+    margin:0 auto;
+}
+.toptop span{
+    position: absolute;
+    top:0;
+    left:1530px;
+    height:15px;
+    width:15px;
+    background: rgba(177, 166, 166, 0.3);
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.header{
+    height:35px;
+    width:1190px;
+    margin:0 auto;
+    text-align: center;
+    line-height: 35px;
+}
+.header .header1{
+    float:left;
+}
+.header .header2{
+    float:right;
+}
+.header a:hover{
+    color: #ff8000;
+}
+ .header a{
+    margin: 0 3px;
+ }
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown {
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 35px;
+    width: 100px;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content span {
+    padding: 5px 10px;
+    display: block;
+  }
+  .dropdown-content span:hover {
+    color: #ff8000;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.top{
+    height: 150px;
+    background-color: #fff;
+}
+.search{
+    height: 150px;
+    width: 1190px;
+    margin: 0 auto;
+}
+.search .searchbox{
+    height: 110px;
+    width: 100%;
+}
+.searchbox img{
+    width: 200px;
+    height: 45px;
+    margin:20px;
+}
+.searchbox .box{
+    height: 35px;
+    width: 420px;
+    margin-top: 20px;
+    outline: none;
+    border:2px solid #ff8000;
+    border-radius: 10px 0 0 10px;
+    padding-left: 10px;
+}
+.searchbox .btn{
+    height: 40px;
+    width: 100px;
+    margin: 0px;
+    border:0px; 
+    border-radius: 0 10px 10px 0;
+    margin-top: 20px;
+    background-color: #ff8000;
+    color: white;
+    font-weight: bold;
+    text-indent: 2px;
+    font-size: 15px;
+}
+.searchbox .q a{
+    padding: 5px;
+}
+.searchbox .q a:hover{
+    color: #ff8000;
+}
+
+
+.search .index{
+    display: block;
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: #ff8000;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 40px;
+}
+.search .fenlei1{
+    float:left;
+    width: 790px;
+    height: 40px;
+}
+.fenlei1 img{
+    float:left;
+    height: 40px;
+    width: auto;
+}
+.fenlei1 a{
+    display: block;
+    float:left;
+    margin: 5px;
+    padding: 5px;
+}
+.search #gongshi{
+    width: 200px;
+    height: 40px;
+    float:right;
+}
+
+.mainmain{
+    height: 476px;
+    background-color:#ac93d7;
+    margin-bottom: 10px;
+}
+.main{
+    width: 1190px;
+    height: 476px;
+    /* background-color: antiquewhite; */
+    margin: 0 auto;
+    position: relative;
+}
+.main .lunbotu{
+    width: 790px;
+    height: 476px;
+    float:left;
+}
+.lunbotu ul{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500%;
+    display: flex;
+}
+.main .lunbotu .images{
+    position: absolute;
+    top:0px;
+    left:200px;    
+    height: 476px;
+    width: 790px;
+    overflow: hidden;
+}
+
+.main .lunbotu .images img{
+    height: 476px;
+    width: 790px;
+}
+
+
+
+
+.lunbotu .nianhuojie{
+    width: 180px;
+    height: 57px;
+    position: absolute;
+    border-radius: 0px 0px 10px 10px;
+    left:200px;
+    top:0px;
+}
+.lunbotu .zuo{
+    position: absolute;
+    top:162px;
+    left:200px;
+    width: 30px;
+    height: 62px;
+    background-color: #c11312;
+    border-radius: 0px 5px 5px 0px;
+}
+.lunbotu .you{
+    position: absolute;
+    top:162px;
+    right:200px;
+    width: 30px;
+    height: 62px;
+    background-color: #c11312;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.lunbotu .dots{
+    position: absolute;
+    top: 345px;
+    left: 486px;
+    width: 224px;
+    height: 4px;
+}
+.dots li{
+    float:left;
+    width: 20px;
+    height: 4px;
+    margin-left: 8px;
+    background-color: rgba(255,255,255,.5);
+    /* background-color: #c11312; */
+}
+.dots .active {
+    background-color: #c11312;
+}
+
+
+
+.lunbobottom{
+    height: 112px;
+    width: 790px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 2px;
+}
+.lunbobottom a{
+    display: block;
+    float: left;
+    width: 194px;
+    height: 112px;
+    margin-left: 2px;
+}
+.lunbobottom img{
+    width: 194px;
+    height: 112px;
+}
+.main .classify,
+.main .login{
+    width: 200px;
+    height: 476px;
+    float:left;
+    background-color: #fff;
+    z-index: 3;
+}
+.classify ul li{
+    width: 200px;
+    height: 31px;
+    background-color: #fff;
+}
+
+.classify1{
+    width: 590px;
+    height: 300px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.classify1 h2{
+    padding: 20px;
+}
+.classify1 .pic{
+    justify-content: space-around;
+}
+.classify1 .pic .example{
+    width: 165px;
+    height: 210px;
+    background-color: #f2f2f2;
+}
+.classify1 .pic .example img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin-left: 7px;
+}
+.classify1 .pic .example .name,
+.classify1 .pic .example .price
+{
+    width: 165px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+}
+.space{
+    width: 1190px;
+    height: 70px;
+}
+.classify2{
+    width: 390px;
+    height: 245px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.classify2 .h1{
+    padding: 10px;
+    width: 390px;
+    height: 20px;
+}
+.classify2 .h1 a:hover{
+    color: #ff8000;
+}
+.eg{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.more{
+    width: 230px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.more img{
+    width: 230px;
+    height: 230px;
+}
+.name2{
+    height: 45px;
+    padding: 15px;
+}
+.more .price2{
+    font-size: 20px;
+    color: #ff3300;
+    padding-left: 15px;
+}
+.more:hover{
+    color:#ff7000;
+}

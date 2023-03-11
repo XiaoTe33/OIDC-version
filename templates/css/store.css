@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    color:#666666;
+}
+li{
+    list-style: none;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.toptop{
+    height: 35px;
+    background-color: #f5f5f5;
+  }
+  .header{
+    height:35px;
+    width:1190px;
+    margin:0 auto;
+    text-align: center;
+    line-height: 35px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .top0{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    height: 90px;
+    margin: 0px auto;
+  }
+  .top0 .top1{
+    display: flex;
+  }
+  .logo{
+    height: 50px;
+    width: 200px;
+    background: url(../images/logo.png) center no-repeat;
+    margin-top: 15px;
+  }
+  .store{
+    width: 230px;
+    height: 90px;
+    background-color: aquamarine;
+  }
+  .searchbox #searchbox{
+    height: 36px;
+    width: 375px;
+    border:2px solid #ff8000;
+    border-radius: 10px 0px 0px 10px;
+  }
+  
+  .yigou{
+    height: 40px;
+    width: 80px;
+    color:#fff;
+    background-color: #ff8000;
+    border: none;
+  }
+  .this{
+    height: 40px;
+    width: 80px;
+    color:#fff;
+    background-color: #333333;
+    border-radius: 0px 10px 10px 0px;
+    border:none;
+  }
+  
+  .ad{
+    height: 120px;
+    background: url(../images/开门红-PC_01.jpg);
+  }
+  .top{
+    height: 40px;
+    width: 100%;
+    background-color: #c32d2f;
+  }
+  .kinds{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    line-height: 40px;
+  }
+  .dropbtn {
+      background-color: #c32d2f;
+      height: 40px;
+      width: 140px;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    .dropdown {
+      position: relative;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 40px;
+      width: 140px;
+      background-color: #c32d2f;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: white;
+      padding: 5px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {
+      background-color: #f1f1f1
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+    .kinds ul{
+      display: flex;
+    }
+    .kinds ul li{
+      height: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 16px;
+      line-height: 40px;
+      background-color: #c32d2f;
+      color:#fff;
+    }
+  

@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    color:#666666;
+}
+li{
+    list-style: none;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.flex3{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex1{
+  display: flex;
+  align-items: flex-start;
+  color: #666666;
+  font-size: 10px;
+}
+.flex2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.toptop{
+  height: 35px;
+  background-color: #f5f5f5;
+}
+.header{
+  height:35px;
+  width:1190px;
+  margin:0 auto;
+  text-align: center;
+  line-height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top0{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1180px;
+  height: 90px;
+  margin: 0px auto;
+}
+.top0 .top1{
+  display: flex;
+}
+.logo{
+  height: 50px;
+  width: 200px;
+  background: url(../images/logo.png) center no-repeat;
+  margin-top: 15px;
+}
+.store{
+  width: 230px;
+  height: 90px;
+  background-color: aquamarine;
+}
+.searchbox #searchbox{
+  height: 36px;
+  width: 375px;
+  border:2px solid #ff8000;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.yigou{
+  height: 40px;
+  width: 80px;
+  color:#fff;
+  background-color: #ff8000;
+  border: none;
+}
+.this{
+  height: 40px;
+  width: 80px;
+  color:#fff;
+  background-color: #333333;
+  border-radius: 0px 10px 10px 0px;
+  border:none;
+}
+
+.ad{
+  height: 120px;
+  background: url(../images/开门红-PC_01.jpg);
+}
+.top{
+  height: 40px;
+  width: 100%;
+  background-color: #c32d2f;
+}
+.kinds{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  line-height: 40px;
+}
+.dropbtn {
+    background-color: #c32d2f;
+    height: 40px;
+    width: 140px;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown {
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 40px;
+    width: 140px;
+    background-color: #c32d2f;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: white;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #f1f1f1
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .kinds ul{
+    display: flex;
+  }
+  .kinds ul li{
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 40px;
+    background-color: #c32d2f;
+    color:#fff;
+  }
+
+.index0{
+  background-color: #f8f8f8;
+}
+  .index{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 1180px;
+    margin:0 auto;
+    line-height: 40px;
+    font-size: 12px;
+  }
+  .index1{
+    display: flex;
+  }
+  .index1 span{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .main{
+    display: flex;
+    width: 1200px;
+    margin: 0px auto;
+  }
+  .main .text{
+    width: 90px;
+    height: 14px;
+    font-size: 14px;
+    margin:5px;
+  }
+
+
+  /* 放大镜 */
+  .main .lunbo{
+    width: 400px;
+    height: 490px;
+    position: relative;
+  }
+  .main .lunbo #mask{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(255,255,255,.4);
+    display: none;
+  }
+  .main .lunbo #bigpic{
+    position: absolute;
+    left:400px;
+    top:0px;
+    width: 400px;
+    height: 400px;
+    background-color:rgb(0, 225, 255);
+    z-index: 2;
+    overflow: hidden;
+    display: none;
+  }
+  .main .lunbo #bigpic img{
+    width: 800px;
+    height: 800px;
+  }
+  .main .lunbo #pic{
+    width: 400px;
+    height: 400px;
+  }
+  .main .lunbo #pic img{
+    width: 400px;
+    height: 400px;
+  }
+
+
+  /* 收藏 */
+  .collect{
+    cursor: pointer;
+  }
+  .yuan{
+    width: 15px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #807167;
+    margin-right: 5px;
+  }
+  .shoucang{
+    color: #807167;
+  }
+  .hover1{
+    background-color: #ff7000;
+  }
+  .hover2{
+    color:#ff7000;
+  }
+/* 具体信息 */
+  .main .details{
+    width: 590px;
+  }
+.main .details .add .buyitnow{
+  width: 115px;
+  height: 40px;
+  color:white;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #663200;
+  border: none;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.main .details .add .addtocar{
+  width: 135px;
+  height: 40px;
+  color:white;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #ff5500;
+  border: none;
+  margin-top: 20px;
+}
+.main .details .add .btn{
+  height: 30px;
+  width: 20px;
+  border: 1px solid #dedede;
+  background-color: #f8f8f8;
+  color: #666666;
+  font-size: 20px;
+  cursor: pointer;
+}
+.main .details .add input{
+  height: 30px;
+  width: 30px;
+  border: 1px solid #dedede;
+  background-color: #ffffff;
+  color: #666666;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+} 
+.main .details .version .version1{
+  width: 235px;
+  height: 40px;
+  background-color: darkolivegreen;
+  margin: 5px;
+}
+
+
+.another{
+  margin-left: 20px;
+}
+.more{
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.more img{
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+.name2{
+  height: 50px;
+}
+.more .price2{
+  color: #ff7000;
+}
+.more:hover{
+  color:#ff7000;
+}
+
+.detail{
+  display: flex;
+  width: 1200px;
+  height: 500px;
+  margin: 0px auto;
+  align-items: flex-start;
+}
+.detail .w{
+  margin-left: 13px;
+  border-left: 2px solid #f1f1f1;
+}
+.tab ul{
+  height: 50px;
+  width: 852px;
+  background-color: #f7f7f7;
+}
+.tab ul li{
+  padding: 0 25px;
+}
+.tab ul li:hover{
+  color: #ff8000;
+}
+.btn1{
+  width: 135px;
+  height: 50px;
+  background-color: #ff5500;
+  color: #fff;
+  border:none;
+}
+.detail .w p{
+  width: 987px;
+  height: 55px;
+  line-height: 55px;
+  padding-left: 20px;
+}
+.detail .w .parameter{
+  width: 790px;
+  height: 150px;
+  background-color: #f7f7f7;
+}
+.detail .w .parameter p{
+  height: 33px;
+  line-height: 33px;
+}
+.detail .w .parameter span{
+  display: block;
+  height: 85px;
+  width: 195px;
+  background-color: orange;
+}
+.introduce img{
+  width: 790px;
+  display:none;
+}
+.active{
+  display: block;
+}

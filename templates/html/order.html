@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>订单</title>
+    <link rel="shortcut icon" href="https://www.suning.com/favicon.ico">
+    <link rel="stylesheet" href="../css/order.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header1">
+            <a href="">网站导航</a>
+            <a href="">商家入驻</a>
+            <a href="">客户服务</a>
+            <a href=""></a>
+        </div>
+        <div class="header2 flex">
+            <a href="./login.html" class="">请登录</a>
+            <a href="./register.html" class="">注册有礼</a>
+            <a href="./mysuning.html" class="">
+                <div class="dropdown">
+                    <span class="dropbtn phonenum"></span>
+                    <div class="dropdown-content">
+                      <a href="../html/personal.html">账号管理</a>
+                      <span class="sign-out">退出登录</span>
+                    </div>
+                </div>
+            </a>
+            <a href="">我的订单</a>
+            <a href="">我的易购</a>
+            <a href="">苏宁会员</a>
+            <a href="">购物车</a>
+            <a href="">易付宝</a>
+            <a href="">企业采购</a>
+            <a href="">手机苏宁</a>
+        </div>
+    </div>
+    <div class="top flex">
+        <img src="../images/logo.png" alt="">
+        <div class="pace">
+            <div class="flex">
+                <span class="circle active">1</span>
+                <span class="line active"></span>
+                <span class="circle active">2</span>
+                <span class="line"></span>
+                <span class="circle">3</span>
+                <span class="line"></span>
+                <span class="circle">4</span>
+            </div>
+            <div class="flex1">
+                <span class="text">我的购物车</span>
+                <span class="text">确认订单</span>
+                <span class="text">付款</span>
+                <span class="text">支付成功</span>
+            </div>
+        </div>
+    </div>
+    <div class="width">
+        <div class="address">
+            <p>收货信息</p>
+            <div id="address">
+                <p>
+                    <span id="person"></span>
+                    <span id="city"></span>
+                </p>
+                <p>
+                    <span id="detailaddress"></span>
+                </p>
+            </div>
+        </div>
+        <div class="pay">
+            <p>支付方式</p>
+            <div class="flex">
+                <span>苏宁支付</span>
+                <span>支付宝</span>
+                <span>微信支付</span>
+            </div>
+        </div>
+        <div class="details">
+            <ul class="flex">
+                <li class="list2 pic"><img src="" alt=""></li>
+                <li class="list3 name"></li>
+                <li class="list4 version"></li>
+                <li class="list5 price"></li>
+                <li class="list6 num flex">
+                    <button class="del1 btn">-</button>
+                    <input type="text" value="1" name="" id="num">
+                    <button class="add1 btn">+</button>
+                </li>
+                <li class="list7 sum"></li>
+            </ul>
+         </div>
+        <div class="message flex">
+            <div>
+                <span class="count">使用优惠券</span>
+            </div>
+            <div class="flex">
+                <div>
+                    <span class="tol"><span id="num">件商品 总计：</span></span>
+                    <span class="tol">优惠券：</span>
+                </div>
+                <div>
+                    <span  class="tol" id="price">￥123</span>
+                    <span class="tol" id="count">-￥23</span>
+                </div>
+            </div>
+        </div>
+        <div id="summary">
+            <div>
+                <span>应付金额：</span><span id="totalprice">￥100.00</span>
+            </div>
+            <button class="buy"><a href="javascript:void (0);">提交订单</a></button></a>
+        </div>
+    </div>
+    <script src="../js/order.js"></script>
+</body>
+</html>
